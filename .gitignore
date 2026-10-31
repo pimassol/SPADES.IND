@@ -1,0 +1,44 @@
+# R sessions and local projects
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+# Compiled/generated files
+*.o
+*.so
+*.dll
+*.a
+*.tar.gz
+*.zip
+*.Rcheck/
+# User data, caches and private audit outputs
+*.rds
+*.RDS
+*.rda
+*.RData
+*.csv
+*.tsv
+*.parquet
+*.log
+*.tmp
+*_PRIVATE*
+RUNNING.lock/
+output/
+outputs/
+cache/
+checkpoints/
+data-raw/
+SPADES_paper_results*/
+archive_NOT_FOR_GITHUB/
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Deliberately versioned case-study inputs and provenance
+!inst/extdata/paper/*.csv
+
+# Versioned paper result tables and protocol files
+!paper/results/
+!paper/results/*

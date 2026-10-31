@@ -1,0 +1,121 @@
+---
+title: "SPADES.IND: classification paper case study"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{SPADES.IND: classification paper case study}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = "#>")
+```
+
+## Scope
+
+This vignette describes the classification case-study protocol: generation,
+target selection, numerical reconstruction and evaluation. Building this
+vignette does not execute the case-study experiments.
+
+## Reference and holdout
+
+The study uses 9,000 real training records and a separate 1,000-record real
+holdout. Diagnosis is the categorical response. The eight variables are age,
+gender, civil status, occupation, physical activity, genetic predisposition,
+municipality of residence and diagnosis. Age is discretized for generation and
+fidelity and reconstructed within its original saved bin after landing.
+Municipality of residence is the highest-cardinality conditioning variable.
+
+The holdout is not used to fit the BN, the plausibility discriminator, the
+association-selection forests or the landing utility guide. Final external
+predictive comparisons use this same real holdout.
+
+## Approved flight and landing
+
+The approved flight uses six chains, BN proposals and plausibility, privacy and
+chain-local diversity energy terms. Duplicate synthetic record contents are
+retained. The approved landing selects 9,000 pool indices using one million
+single-record swap proposals. Its objective is mean categorical fidelity plus
+absolute fixed-RF accuracy gap, with coefficient one for each term. There is no
+additional diversity term in this landing.
+
+The fidelity components include all eight marginals, seven distributions
+conditioned on municipality, and these five bivariate distributions:
+
+- age and civil status;
+- age and occupation;
+- age and genetic predisposition;
+- diagnosis and physical activity;
+- genetic predisposition and diagnosis.
+
+The twenty components receive equal weight in their arithmetic mean. Conditional
+discrepancies use real municipality proportions. This is the approved protocol,
+not earlier maximum-based or adaptive-weight variants.
+
+## Final numerical release
+
+Only the corrected age reconstruction is used for final audits: applying the
+saved discretizer to reconstructed ages must reproduce every selected age bin.
+The selected categorical records are unchanged by this correction. Older
+releases with age-bin crossings must not be mixed with the corrected outputs.
+Final-release duplicates and exact matches are measured after reconstruction;
+duplicates are reported, not removed.
+
+## Fidelity, privacy and stability
+
+Fidelity is assessed on selected categorical records and on the final numerical
+release. Privacy checks include exact matches, duplicates, nearest-neighbour
+features and membership attacks with separate attack training, calibration and
+test sets. Repeated membership splits reuse the same release and candidate
+features; they are not independent synthetic-data replications.
+
+The target stability experiment generates ten targets from the same fixed pool,
+with different landing seeds and valid numerical reconstruction. It measures
+variation due to target selection and reconstruction, not variation in flight.
+The existing completed results are retained; documentation work does not require
+running these experiments again.
+
+## External utility
+
+XT, bagged CART and XGB are fitted to each of the ten final targets with one
+fixed model seed and the same model configuration. Each model is also fitted
+once to the real training reference. All fits are evaluated on the same 1,000
+real holdout records: thirty synthetic fits and three real baselines.
+
+Accuracy and probabilistic metrics answer different questions and must be
+reported separately. Repeated targets evaluated against a shared holdout do not
+provide independent test datasets. The case study validates a classification
+application; it does not provide empirical validation of the continuous-response
+extension.
+
+## Reproducibility
+
+Reproduction uses the original training/holdout split, saved discretizers,
+model settings, seeds and software versions. Final audits use the corrected
+numerical release and the approved categorical selection. Preserve these inputs
+and the saved result tables together. A new generalized workflow call need not
+be bitwise identical to an earlier script run under another software environment.
+
+## Included inputs
+
+The original CSV files are installed under `extdata/paper`. Their checksums and
+observed variable inventory accompany them. Read all columns as character first
+and convert age to integer; the diagnosis codes represent classes.
+
+```{r load-inputs}
+folder <- system.file("extdata", "paper", package="SPADES.IND")
+training <- read.csv(file.path(folder, "training_data.csv"),
+                     colClasses="character", na.strings=NULL)
+holdout <- read.csv(file.path(folder, "test_real_1000.csv"),
+                    colClasses="character", na.strings=NULL)
+training$age <- as.integer(training$age)
+holdout$age <- as.integer(holdout$age)
+stopifnot(nrow(training)==9000L, nrow(holdout)==1000L)
+```
+
+The supplied training CSV includes literal `Missing` categories in physical
+activity and genetic predisposition. Preserve the original files for provenance.
+If these labels are declared missing when preparing an analysis, complete-case
+filtering changes the reference and must be reported explicitly. The installed
+`extdata/paper/README.md` describes the input conventions. Historical fitted
+models and approved result tables are separate from these input files.

@@ -1,0 +1,1001 @@
+"municipality_residence","age","civil_status","gender","occupation","physical_activity","genetic_predisposition","diagnosis"
+"Ginosa",23,"Married","Female",0,"3","5",2
+"Taranto",48,"NeverMarried","Male",1,"1","6",1
+"San Marzano di San Giuseppe",20,"NeverMarried","Male",1,"2","3",1
+"Lecce",56,"Married","Male",0,"1","8",3
+"Calimera",39,"NeverMarried","Male",1,"2","2",3
+"Martina Franca",55,"NeverMarried","Female",0,"2","3",2
+"Palagiano",29,"Married","Female",1,"1","4",3
+"Squinzano",35,"NeverMarried","Male",1,"3","3",2
+"Manduria",26,"Married","Male",1,"4","5",3
+"San Vito dei Normanni",53,"Married","Male",1,"2","5",4
+"Nardò",58,"NeverMarried","Female",1,"2","5",2
+"Trepuzzi",55,"Married","Male",0,"2","4",1
+"Oria",24,"Married","Male",1,"2","1",1
+"Torre Santa Susanna",40,"NeverMarried","Male",1,"3","6",4
+"Specchia",50,"NeverMarried","Female",1,"2","4",4
+"Galatina",33,"NeverMarried","Male",1,"1","3",3
+"Mesagne",64,"Married","Male",1,"2","4",2
+"Ugento",33,"Married","Female",0,"3","4",1
+"Sannicola",46,"NeverMarried","Male",1,"2","5",2
+"Taranto",22,"Married","Female",1,"2","2",1
+"Taranto",46,"Married","Female",0,"3","6",2
+"Vernole",43,"NeverMarried","Female",0,"3","4",1
+"Castellaneta",56,"Married","Female",1,"2","3",3
+"Soleto",18,"Divorced","Male",0,"1","7",2
+"Taranto",25,"Married","Female",1,"2","7",4
+"Martina Franca",62,"NeverMarried","Female",0,"5","2",3
+"Monteparano",54,"Married","Female",1,"1","5",4
+"Surbo",25,"Married","Female",0,"2","3",1
+"Veglie",61,"NeverMarried","Male",1,"3","3",4
+"Taurisano",38,"Married","Male",1,"3","3",2
+"Martina Franca",44,"Married","Male",1,"1","5",4
+"San Giorgio Ionico",51,"NeverMarried","Male",0,"2","5",2
+"Taranto",58,"Married","Male",1,"3","6",2
+"Castri di Lecce",55,"Married","Male",0,"2","7",4
+"Taranto",30,"NeverMarried","Male",0,"3","5",2
+"Taranto",61,"NeverMarried","Male",1,"4","3",1
+"Fasano",46,"Married","Female",1,"4","4",2
+"Taranto",59,"Married","Male",1,"4","3",1
+"Manduria",65,"Married","Male",0,"2","3",3
+"Nardò",22,"Divorced","Female",0,"2","6",2
+"Taranto",37,"Married","Male",0,"3","3",1
+"Ostuni",57,"NeverMarried","Female",0,"1","6",4
+"Galatina",34,"NeverMarried","Female",0,"1","5",1
+"Cavallino",55,"NeverMarried","Female",0,"4","5",4
+"Guagnano",24,"Married","Female",1,"4","3",4
+"Lecce",37,"Married","Male",0,"3","2",4
+"Fragagnano",33,"Married","Female",0,"1","2",4
+"Brindisi",36,"Married","Female",1,"2","5",4
+"Aradeo",36,"NeverMarried","Female",1,"4","3",3
+"Fragagnano",41,"Married","Female",1,"3","6",1
+"Latiano",30,"NeverMarried","Female",1,"4","4",1
+"Grottaglie",50,"Married","Female",0,"4","5",2
+"Diso",30,"NeverMarried","Male",1,"4","4",1
+"Tuglie",27,"Married","Male",1,"3","5",2
+"Martignano",18,"Married","Female",0,"3","3",1
+"Nardò",19,"Married","Female",1,"2","4",4
+"Taranto",44,"Married","Male",0,"4","7",4
+"Torchiarolo",23,"Married","Male",1,"1","8",4
+"Nardò",32,"NeverMarried","Female",1,"2","4",3
+"Fragagnano",31,"NeverMarried","Male",0,"1","2",1
+"Pulsano",41,"NeverMarried","Male",1,"3","5",3
+"Cutrofiano",50,"Married","Male",0,"2","3",3
+"San Vito dei Normanni",27,"Married","Male",1,"4","4",1
+"Brindisi",41,"NeverMarried","Male",1,"2","6",3
+"Oria",59,"NeverMarried","Female",1,"1","3",2
+"Lecce",28,"Married","Male",1,"2","4",3
+"Maruggio",57,"Married","Female",1,"2","7",4
+"Porto Cesareo",46,"Married","Female",0,"3","6",2
+"Spongano",27,"NeverMarried","Male",1,"1","4",3
+"Nardò",27,"Married","Female",0,"1","4",3
+"Calimera",28,"NeverMarried","Male",1,"3","6",3
+"Galatone",61,"NeverMarried","Male",1,"1","3",3
+"Manduria",44,"NeverMarried","Female",1,"4","4",1
+"Montesano Salentino",54,"NeverMarried","Female",0,"2","6",4
+"San Giorgio Ionico",52,"Married","Male",0,"4","3",2
+"Alessano",39,"Divorced","Female",1,"2","3",1
+"Manduria",62,"NeverMarried","Female",1,"1","1",3
+"Lecce",33,"Married","Male",0,"2","7",1
+"San Donaci",50,"NeverMarried","Male",1,"2","5",4
+"Surbo",45,"Married","Female",0,"1","6",4
+"Taranto",57,"NeverMarried","Female",0,"1","3",4
+"Francavilla Fontana",29,"NeverMarried","Male",1,"5","5",3
+"Salice Salentino",43,"Divorced","Female",1,"2","3",4
+"Galatina",58,"NeverMarried","Male",1,"4","4",4
+"Mesagne",34,"Married","Female",0,"3","5",4
+"Guagnano",55,"Married","Male",1,"2","2",3
+"Melendugno",60,"Married","Female",1,"2","5",1
+"Mottola",47,"Married","Male",1,"3","2",2
+"Taranto",19,"NeverMarried","Male",1,"1","4",1
+"Lecce",62,"Married","Male",0,"1","3",2
+"Soleto",19,"Married","Female",0,"3","1",3
+"Taranto",33,"NeverMarried","Male",1,"1","6",1
+"Lecce",30,"Married","Female",1,"3","3",2
+"Castellaneta",64,"Married","Male",1,"2","4",4
+"Trepuzzi",53,"NeverMarried","Female",0,"1","5",4
+"Martina Franca",54,"NeverMarried","Female",1,"3","5",2
+"Francavilla Fontana",49,"NeverMarried","Female",0,"1","5",4
+"Parabita",50,"Married","Male",1,"2","4",1
+"Lizzanello",64,"NeverMarried","Female",1,"1","7",3
+"Melendugno",45,"NeverMarried","Female",1,"3","7",2
+"Taranto",64,"NeverMarried","Female",1,"2","5",4
+"Ostuni",37,"Married","Male",1,"1","4",1
+"Latiano",40,"Married","Male",1,"3","6",1
+"Ostuni",30,"NeverMarried","Female",0,"3","5",3
+"Laterza",34,"Married","Male",1,"2","1",3
+"Copertino",45,"NeverMarried","Female",1,"2","2",3
+"San Vito dei Normanni",33,"Divorced","Male",1,"2","3",3
+"Martina Franca",58,"NeverMarried","Female",1,"1","2",2
+"Lecce",47,"Widowed","Male",0,"5","3",1
+"Lizzanello",19,"Married","Female",1,"3","3",3
+"Nardò",53,"Married","Female",0,"3","1",1
+"Alezio",46,"NeverMarried","Female",0,"1","6",3
+"Carmiano",44,"Married","Female",1,"3","5",4
+"Casarano",62,"NeverMarried","Male",0,"3","3",1
+"Martina Franca",51,"Married","Female",1,"3","4",2
+"Ortelle",60,"NeverMarried","Male",1,"3","6",2
+"Nardò",46,"NeverMarried","Male",1,"4","3",1
+"Brindisi",49,"Married","Female",0,"3","5",4
+"Brindisi",64,"NeverMarried","Female",0,"2","1",1
+"Manduria",37,"NeverMarried","Female",0,"4","6",2
+"Galatina",51,"NeverMarried","Female",0,"3","6",1
+"Taranto",62,"Married","Female",1,"4","3",1
+"Martina Franca",24,"NeverMarried","Male",1,"2","2",2
+"Palagiano",28,"Married","Male",0,"4","7",1
+"Maglie",35,"Married","Female",1,"2","4",1
+"Melendugno",59,"Married","Male",1,"1","7",4
+"Lecce",22,"NeverMarried","Male",1,"2","6",2
+"Mottola",48,"Married","Male",1,"3","2",2
+"Maglie",56,"NeverMarried","Male",0,"2","1",2
+"Erchie",39,"NeverMarried","Female",0,"5","5",2
+"Trepuzzi",40,"NeverMarried","Female",0,"2","7",1
+"Miggiano",55,"NeverMarried","Female",0,"2","6",4
+"Salice Salentino",28,"NeverMarried","Female",1,"2","5",2
+"Ostuni",34,"Married","Female",1,"4","4",2
+"Taranto",56,"NeverMarried","Female",1,"2","5",2
+"Melendugno",58,"Married","Male",0,"2","5",1
+"Lecce",52,"Married","Female",1,"2","4",4
+"Lecce",55,"Married","Female",0,"2","5",4
+"Specchia",32,"NeverMarried","Female",1,"4","3",1
+"Fasano",23,"NeverMarried","Male",1,"2","2",4
+"Matino",30,"Married","Female",1,"2","3",2
+"Maglie",48,"NeverMarried","Female",1,"1","6",4
+"Lecce",43,"Married","Female",1,"2","4",1
+"Lequile",43,"NeverMarried","Female",0,"2","7",4
+"Racale",37,"NeverMarried","Male",1,"1","5",4
+"Sannicola",22,"NeverMarried","Male",1,"5","2",1
+"Scorrano",36,"Married","Female",1,"4","3",4
+"Surbo",29,"Married","Female",1,"2","4",3
+"Casarano",27,"Married","Male",1,"2","4",1
+"Ginosa",50,"Married","Female",1,"2","4",3
+"Aradeo",41,"Married","Female",0,"4","2",2
+"Taranto",35,"NeverMarried","Male",1,"1","5",4
+"Taranto",31,"NeverMarried","Female",1,"2","6",2
+"Gallipoli",53,"Married","Female",1,"2","5",1
+"Lizzanello",19,"Married","Female",1,"1","4",4
+"Nardò",56,"Married","Female",1,"3","2",1
+"Corigliano d'Otranto",29,"Married","Male",1,"3","7",3
+"Grottaglie",53,"NeverMarried","Male",1,"3","6",3
+"Palagianello",19,"Married","Male",1,"1","5",2
+"Martina Franca",43,"NeverMarried","Male",1,"3","6",2
+"Lecce",55,"Married","Male",0,"2","6",4
+"Copertino",34,"Married","Male",0,"3","1",1
+"Andrano",31,"NeverMarried","Female",1,"1","5",3
+"Taranto",19,"Married","Male",1,"2","4",4
+"Lecce",43,"NeverMarried","Male",1,"4","3",1
+"Cisternino",40,"NeverMarried","Male",1,"2","3",1
+"Leporano",40,"Married","Male",1,"3","3",4
+"Taranto",28,"NeverMarried","Male",1,"3","4",1
+"San Cassiano",62,"NeverMarried","Male",1,"4","3",1
+"Massafra",33,"NeverMarried","Male",1,"1","4",3
+"Cavallino",38,"Married","Female",0,"2","3",4
+"Nardò",65,"Married","Male",0,"3","4",1
+"Galatone",34,"NeverMarried","Female",1,"5","4",4
+"Gallipoli",64,"NeverMarried","Female",1,"1","4",4
+"Surano",61,"NeverMarried","Male",0,"2","6",2
+"Massafra",37,"NeverMarried","Male",1,"3","3",4
+"Squinzano",49,"Married","Male",1,"4","4",3
+"Castrignano del Capo",25,"NeverMarried","Female",1,"1","4",3
+"Lecce",44,"Married","Male",0,"3","2",2
+"Carmiano",46,"Married","Female",0,"1","4",1
+"Palagiano",25,"NeverMarried","Male",0,"5","7",2
+"Presicce-Acquarica",56,"Married","Female",1,"2","2",3
+"Taurisano",61,"NeverMarried","Female",1,"3","5",2
+"Surbo",57,"NeverMarried","Female",1,"4","4",2
+"Parabita",25,"NeverMarried","Female",1,"2","2",1
+"Latiano",35,"Married","Male",0,"2","3",3
+"Taranto",60,"Married","Male",1,"4","6",1
+"Torchiarolo",18,"Married","Male",1,"1","6",4
+"Manduria",64,"NeverMarried","Male",1,"1","4",3
+"Brindisi",51,"NeverMarried","Male",0,"2","7",4
+"Grottaglie",27,"Married","Female",0,"3","3",2
+"Laterza",52,"Divorced","Male",1,"3","4",2
+"Lizzanello",61,"Married","Female",1,"2","2",4
+"Lizzanello",38,"Married","Male",1,"3","3",3
+"Specchia",49,"NeverMarried","Female",1,"2","5",4
+"San Vito dei Normanni",49,"Married","Female",0,"3","4",2
+"Lecce",39,"Married","Female",0,"3","7",4
+"Taviano",46,"Married","Female",1,"4","3",1
+"Monteroni di Lecce",65,"NeverMarried","Female",0,"2","2",3
+"Lizzanello",24,"Married","Female",0,"2","4",1
+"Casarano",24,"NeverMarried","Female",1,"2","4",1
+"Ostuni",49,"Widowed","Male",1,"1","2",3
+"Torricella",48,"Married","Female",1,"3","1",4
+"Galatone",52,"Married","Male",0,"1","6",1
+"Lecce",33,"NeverMarried","Male",0,"1","7",4
+"Andrano",64,"NeverMarried","Female",1,"3","5",3
+"Otranto",30,"NeverMarried","Male",1,"3","6",1
+"Manduria",56,"Widowed","Female",1,"2","4",4
+"Casarano",58,"Married","Female",0,"4","5",2
+"Presicce-Acquarica",29,"Married","Female",1,"4","5",2
+"Squinzano",57,"Married","Female",0,"2","4",4
+"Brindisi",24,"Divorced","Female",0,"1","7",1
+"Brindisi",30,"Married","Female",1,"4","7",1
+"Taurisano",54,"Married","Female",1,"3","5",2
+"Palagiano",45,"NeverMarried","Female",0,"3","3",2
+"Corsano",51,"NeverMarried","Female",1,"2","3",4
+"Fasano",41,"NeverMarried","Female",1,"2","4",3
+"Galatina",64,"Married","Female",1,"2","4",2
+"Squinzano",65,"Married","Female",1,"1","5",3
+"Monteiasi",26,"Married","Female",1,"2","2",3
+"Alessano",43,"Married","Female",0,"1","4",3
+"Grottaglie",63,"NeverMarried","Male",1,"3","2",3
+"Poggiardo",27,"NeverMarried","Male",1,"3","2",4
+"Lequile",60,"NeverMarried","Female",1,"3","5",3
+"Lizzanello",29,"NeverMarried","Female",1,"4","2",1
+"Cellino San Marco",45,"Married","Male",1,"2","5",3
+"Fasano",53,"NeverMarried","Female",0,"4","4",1
+"Carovigno",48,"Married","Female",0,"3","7",4
+"Taranto",59,"NeverMarried","Female",1,"4","5",4
+"Ostuni",61,"Married","Female",0,"4","2",3
+"Fasano",28,"Married","Male",1,"1","5",4
+"Brindisi",61,"NeverMarried","Female",0,"3","6",1
+"Gallipoli",58,"Married","Female",0,"2","2",3
+"Latiano",52,"NeverMarried","Female",1,"2","4",2
+"Guagnano",47,"NeverMarried","Female",1,"1","6",4
+"Erchie",30,"Divorced","Male",0,"1","2",3
+"Otranto",20,"Married","Male",1,"1","5",1
+"Ceglie Messapica",45,"NeverMarried","Male",0,"3","7",4
+"Montesano Salentino",48,"NeverMarried","Female",0,"2","5",4
+"Guagnano",57,"Married","Male",0,"2","2",4
+"Taranto",29,"Married","Female",1,"3","6",2
+"Torchiarolo",29,"Married","Male",1,"2","5",4
+"Brindisi",53,"Married","Female",1,"3","2",1
+"Taranto",50,"Married","Female",0,"2","6",4
+"Gallipoli",26,"Married","Female",1,"3","3",1
+"Brindisi",51,"Married","Male",1,"3","3",4
+"Soleto",60,"Married","Male",0,"5","4",3
+"Taranto",18,"Married","Female",0,"2","5",3
+"Fasano",30,"Married","Female",0,"2","2",2
+"Carovigno",59,"NeverMarried","Female",1,"3","3",2
+"San Vito dei Normanni",27,"Married","Female",1,"1","3",4
+"Martano",49,"Married","Female",0,"1","6",4
+"San Michele Salentino",60,"NeverMarried","Female",0,"1","5",4
+"Lecce",65,"NeverMarried","Female",1,"2","2",3
+"Taranto",34,"Divorced","Female",1,"3","5",2
+"Ginosa",46,"Married","Female",0,"2","4",1
+"Fasano",36,"NeverMarried","Female",0,"5","2",4
+"Lecce",40,"Married","Male",1,"2","5",4
+"San Pietro Vernotico",62,"Married","Male",1,"1","5",1
+"Taranto",27,"Married","Male",1,"2","4",4
+"Racale",53,"Married","Male",0,"1","3",3
+"Taranto",30,"NeverMarried","Female",1,"2","3",4
+"Mesagne",65,"Married","Female",0,"2","5",3
+"Carmiano",28,"NeverMarried","Female",1,"2","4",3
+"Mottola",43,"Married","Male",0,"2","7",2
+"Minervino di Lecce",27,"Married","Female",0,"2","5",1
+"Nardò",64,"Married","Female",1,"3","5",4
+"Veglie",22,"Married","Male",0,"1","1",3
+"Nardò",44,"NeverMarried","Female",1,"1","2",3
+"Calimera",39,"Married","Male",1,"2","6",4
+"Ceglie Messapica",21,"Married","Female",1,"2","4",1
+"Taranto",57,"Married","Female",0,"1","3",3
+"Martano",44,"Married","Male",0,"2","2",4
+"Torricella",50,"NeverMarried","Female",1,"4","6",2
+"Grottaglie",43,"Married","Female",0,"4","2",1
+"Martina Franca",21,"NeverMarried","Female",0,"3","4",2
+"Monteroni di Lecce",49,"Married","Male",1,"5","4",1
+"Ostuni",33,"Married","Male",0,"4","5",2
+"Taranto",56,"Married","Male",1,"3","3",1
+"Lecce",49,"NeverMarried","Female",1,"3","5",4
+"Brindisi",60,"Married","Female",1,"1","3",3
+"Mottola",51,"Married","Female",1,"1","3",4
+"Palagiano",20,"NeverMarried","Male",1,"4","4",2
+"Carmiano",54,"Married","Female",1,"3","7",2
+"Massafra",27,"Married","Female",0,"2","8",2
+"San Donato di Lecce",61,"NeverMarried","Male",0,"5","5",2
+"Lecce",32,"Married","Male",1,"2","4",4
+"San Donato di Lecce",48,"NeverMarried","Male",0,"4","7",3
+"Palagiano",61,"NeverMarried","Male",1,"2","4",4
+"Nociglia",55,"NeverMarried","Female",1,"2","5",4
+"Faggiano",58,"Married","Male",0,"2","6",4
+"Taranto",21,"NeverMarried","Female",1,"3","5",2
+"San Vito dei Normanni",18,"Divorced","Female",1,"3","7",2
+"Palagiano",26,"NeverMarried","Female",0,"2","4",1
+"Presicce-Acquarica",57,"Divorced","Female",1,"1","2",4
+"Copertino",60,"NeverMarried","Male",0,"1","3",1
+"Squinzano",54,"NeverMarried","Male",1,"4","3",1
+"Statte",34,"NeverMarried","Female",1,"3","4",1
+"Salice Salentino",21,"NeverMarried","Female",1,"3","3",1
+"San Pietro Vernotico",41,"Married","Male",0,"3","2",2
+"Andrano",52,"Married","Male",1,"2","5",4
+"Oria",52,"NeverMarried","Male",1,"1","4",4
+"Martina Franca",24,"NeverMarried","Male",1,"4","3",1
+"Taranto",22,"Married","Male",0,"2","6",4
+"Miggiano",20,"Married","Female",0,"2","3",1
+"Galatina",53,"Married","Male",0,"1","4",4
+"Lecce",50,"NeverMarried","Female",0,"2","3",3
+"Galatone",44,"NeverMarried","Male",0,"1","7",2
+"Latiano",30,"Married","Female",1,"2","5",4
+"Lecce",18,"Married","Female",0,"1","7",4
+"Manduria",61,"NeverMarried","Female",1,"2","5",2
+"Tuglie",63,"Married","Male",1,"3","5",2
+"Carovigno",33,"Married","Female",1,"3","3",4
+"Carmiano",63,"NeverMarried","Male",0,"4","6",3
+"Taranto",62,"Married","Male",0,"1","5",4
+"Soleto",65,"NeverMarried","Male",1,"2","3",3
+"Trepuzzi",22,"NeverMarried","Female",0,"1","1",1
+"Taranto",41,"Married","Female",0,"2","8",1
+"Ginosa",57,"Married","Female",1,"3","5",2
+"Villa Castelli",45,"Married","Male",1,"1","7",2
+"Galatina",27,"NeverMarried","Female",1,"2","4",3
+"Lecce",48,"Married","Female",0,"2","2",3
+"Taranto",33,"NeverMarried","Female",1,"4","4",1
+"Taurisano",40,"Married","Male",0,"3","3",1
+"Nardò",50,"Married","Male",0,"1","6",4
+"Manduria",51,"NeverMarried","Male",0,"1","1",2
+"Martina Franca",49,"NeverMarried","Female",1,"3","4",2
+"Taranto",35,"NeverMarried","Female",1,"2","2",2
+"Lecce",44,"Married","Male",0,"3","5",4
+"Morciano di Leuca",53,"NeverMarried","Male",1,"4","4",4
+"Lecce",33,"Married","Female",1,"2","6",4
+"Grottaglie",34,"Married","Male",1,"3","4",1
+"Gallipoli",61,"NeverMarried","Male",1,"3","2",3
+"Uggiano la Chiesa",33,"Married","Female",0,"1","5",4
+"Taranto",56,"Married","Male",1,"1","2",2
+"Mottola",27,"Married","Male",1,"4","4",1
+"Latiano",34,"NeverMarried","Male",0,"5","4",1
+"Miggiano",48,"NeverMarried","Male",1,"2","6",4
+"Poggiardo",21,"Married","Female",1,"1","4",4
+"Cavallino",38,"Married","Male",1,"3","4",3
+"Grottaglie",31,"Married","Male",1,"4","3",1
+"Palagianello",57,"NeverMarried","Female",1,"1","5",1
+"Massafra",58,"Married","Female",1,"1","4",4
+"Martano",23,"NeverMarried","Female",1,"3","4",1
+"Martina Franca",31,"NeverMarried","Male",1,"2","5",1
+"Neviano",54,"NeverMarried","Female",0,"2","1",4
+"Campi Salentina",40,"NeverMarried","Female",1,"1","3",1
+"Squinzano",50,"NeverMarried","Female",1,"2","1",3
+"Tuglie",39,"NeverMarried","Male",1,"1","1",3
+"Massafra",53,"NeverMarried","Female",1,"1","4",1
+"Martina Franca",54,"NeverMarried","Male",1,"2","3",4
+"Galatone",64,"Married","Female",0,"1","4",3
+"Lequile",56,"NeverMarried","Female",1,"3","6",4
+"Giurdignano",21,"Married","Female",1,"2","5",4
+"Ginosa",43,"Married","Female",0,"4","5",2
+"Nardò",24,"Married","Female",1,"2","5",4
+"Villa Castelli",56,"Married","Male",1,"2","6",4
+"Galatina",51,"NeverMarried","Female",1,"1","6",3
+"Ostuni",55,"NeverMarried","Male",0,"4","4",3
+"Botrugno",22,"Married","Male",0,"2","1",4
+"Taranto",57,"Married","Female",1,"1","2",3
+"Cavallino",35,"Married","Female",1,"2","4",2
+"Taranto",51,"Widowed","Female",1,"4","7",4
+"Squinzano",27,"NeverMarried","Female",1,"1","8",2
+"Torchiarolo",44,"NeverMarried","Female",1,"3","2",2
+"Laterza",44,"Widowed","Male",1,"4","3",1
+"Maglie",21,"NeverMarried","Male",0,"3","5",3
+"Taviano",42,"Married","Male",1,"4","3",3
+"Brindisi",44,"Married","Female",1,"1","4",3
+"Copertino",27,"Married","Male",0,"2","6",1
+"San Vito dei Normanni",31,"Married","Male",1,"1","5",4
+"Brindisi",33,"Divorced","Female",1,"1","3",4
+"Cutrofiano",18,"NeverMarried","Male",0,"3","6",2
+"San Michele Salentino",22,"Married","Male",1,"2","1",1
+"Laterza",59,"Married","Female",0,"1","3",4
+"Oria",48,"NeverMarried","Male",1,"4","1",4
+"Torricella",58,"Married","Male",1,"2","5",1
+"Taranto",57,"Married","Female",1,"4","4",3
+"Palagiano",44,"NeverMarried","Female",0,"3","6",4
+"San Donato di Lecce",37,"NeverMarried","Female",1,"1","5",4
+"Lizzano",28,"NeverMarried","Male",0,"2","6",3
+"Maglie",45,"NeverMarried","Male",0,"3","4",1
+"Galatina",45,"Married","Female",0,"4","2",1
+"Ugento",23,"Married","Male",0,"2","7",2
+"Lecce",64,"NeverMarried","Male",0,"4","2",1
+"Taranto",65,"NeverMarried","Male",0,"4","5",2
+"Grottaglie",20,"Divorced","Female",0,"1","4",3
+"Taranto",58,"Married","Female",1,"4","4",1
+"San Pancrazio Salentino",50,"NeverMarried","Male",1,"3","1",4
+"Casarano",53,"NeverMarried","Male",0,"2","5",1
+"Palagianello",53,"Married","Male",1,"1","5",4
+"Cursi",59,"NeverMarried","Female",0,"2","6",2
+"Lecce",39,"Married","Female",1,"2","3",2
+"Taranto",65,"Married","Male",1,"1","8",4
+"Taranto",27,"NeverMarried","Female",1,"2","4",2
+"Francavilla Fontana",48,"NeverMarried","Male",1,"2","4",3
+"Nardò",44,"Married","Female",1,"4","3",1
+"Taranto",41,"Divorced","Female",1,"1","1",3
+"Mesagne",48,"NeverMarried","Male",0,"2","4",1
+"Gallipoli",62,"NeverMarried","Female",1,"2","3",4
+"Brindisi",49,"Married","Male",1,"4","5",2
+"Mottola",47,"NeverMarried","Male",1,"4","3",2
+"Ginosa",42,"NeverMarried","Male",1,"1","6",4
+"Calimera",56,"Married","Male",1,"2","3",4
+"Salice Salentino",40,"NeverMarried","Female",1,"2","1",3
+"Andrano",50,"Married","Female",1,"1","3",3
+"Fragagnano",53,"Married","Female",1,"1","4",4
+"Brindisi",52,"NeverMarried","Female",1,"1","2",1
+"Gallipoli",40,"Married","Male",1,"2","4",3
+"Squinzano",51,"NeverMarried","Female",0,"2","3",3
+"Martina Franca",58,"Divorced","Female",1,"3","3",2
+"Oria",26,"NeverMarried","Male",0,"1","4",4
+"Ruffano",50,"NeverMarried","Male",1,"3","5",2
+"Gallipoli",47,"Married","Female",1,"2","6",3
+"Taranto",60,"NeverMarried","Male",1,"4","2",1
+"Taranto",47,"NeverMarried","Male",1,"3","2",1
+"Taranto",47,"NeverMarried","Male",1,"3","5",1
+"San Pancrazio Salentino",20,"Married","Female",0,"3","6",2
+"Francavilla Fontana",39,"NeverMarried","Male",1,"1","6",4
+"Torricella",41,"NeverMarried","Female",0,"3","6",4
+"Francavilla Fontana",59,"NeverMarried","Female",1,"3","3",4
+"Pulsano",41,"Married","Male",1,"2","4",3
+"Palagianello",52,"Married","Male",1,"1","5",4
+"Monteroni di Lecce",58,"NeverMarried","Male",0,"2","2",2
+"Mesagne",44,"NeverMarried","Female",1,"2","2",4
+"Taranto",59,"NeverMarried","Male",0,"3","6",1
+"Brindisi",34,"Married","Male",1,"2","2",3
+"Monteroni di Lecce",33,"NeverMarried","Male",1,"4","5",1
+"Collepasso",63,"Married","Male",1,"1","3",3
+"Muro Leccese",50,"NeverMarried","Male",1,"1","5",4
+"Maglie",55,"Married","Female",1,"3","5",1
+"Lecce",45,"Married","Female",1,"2","4",2
+"Veglie",61,"NeverMarried","Male",1,"3","2",1
+"Sannicola",31,"Married","Female",1,"4","4",1
+"Taranto",61,"NeverMarried","Female",1,"2","4",2
+"Martina Franca",61,"NeverMarried","Female",1,"3","7",1
+"Matino",23,"NeverMarried","Female",1,"4","7",2
+"Brindisi",48,"NeverMarried","Female",1,"2","7",4
+"Lecce",29,"Married","Male",0,"3","4",1
+"Alezio",21,"Married","Male",1,"3","5",3
+"Mottola",50,"Married","Male",0,"3","2",4
+"Lecce",40,"NeverMarried","Male",1,"2","4",3
+"Ostuni",42,"Married","Female",0,"1","7",1
+"San Pietro Vernotico",53,"Married","Female",1,"2","4",4
+"Massafra",54,"Married","Female",0,"1","4",4
+"Castri di Lecce",31,"Married","Female",0,"1","8",4
+"Miggiano",62,"Married","Female",1,"1","6",4
+"Brindisi",56,"Married","Female",1,"2","3",4
+"Manduria",59,"Married","Male",1,"1","5",4
+"Lecce",48,"NeverMarried","Female",0,"4","6",4
+"San Vito dei Normanni",54,"Divorced","Female",1,"3","4",2
+"Palagianello",23,"NeverMarried","Male",0,"1","5",2
+"Brindisi",45,"NeverMarried","Male",1,"2","3",2
+"Brindisi",53,"Married","Female",0,"3","3",2
+"Fasano",27,"Married","Male",0,"2","2",1
+"Andrano",51,"Married","Female",0,"3","6",3
+"Alessano",24,"Divorced","Female",1,"4","6",2
+"Brindisi",54,"Married","Male",0,"2","5",3
+"Nardò",52,"Married","Male",0,"3","6",2
+"Gallipoli",47,"Married","Female",0,"4","4",1
+"Muro Leccese",42,"NeverMarried","Female",0,"5","3",1
+"Gagliano del Capo",32,"Married","Male",0,"4","4",1
+"Gagliano del Capo",62,"Married","Male",1,"3","2",1
+"Francavilla Fontana",42,"NeverMarried","Female",0,"3","2",4
+"Taranto",39,"Married","Female",1,"2","2",3
+"Galatina",64,"NeverMarried","Male",1,"2","4",4
+"Crispiano",19,"Married","Male",1,"2","2",4
+"Cutrofiano",40,"Married","Female",1,"2","6",2
+"Carovigno",34,"NeverMarried","Female",1,"3","6",1
+"Veglie",35,"Married","Male",1,"1","4",2
+"Taranto",58,"Married","Male",1,"5","4",2
+"San Vito dei Normanni",65,"NeverMarried","Female",0,"3","4",3
+"Brindisi",21,"Divorced","Female",1,"3","5",1
+"Torre Santa Susanna",49,"Married","Female",0,"2","4",1
+"Torricella",41,"Married","Female",1,"1","2",4
+"Taurisano",56,"Divorced","Male",1,"2","3",3
+"Leverano",32,"Married","Female",0,"4","1",1
+"Taranto",35,"Married","Male",0,"2","3",3
+"Brindisi",25,"Married","Male",1,"1","2",1
+"Mesagne",42,"Married","Female",1,"1","5",4
+"Lecce",31,"NeverMarried","Male",0,"3","4",3
+"Brindisi",39,"Married","Male",1,"3","4",2
+"Lecce",23,"NeverMarried","Female",1,"4","4",1
+"Ceglie Messapica",38,"NeverMarried","Female",1,"4","4",4
+"Francavilla Fontana",60,"Married","Male",1,"2","4",3
+"Lecce",43,"NeverMarried","Female",1,"1","4",4
+"Fasano",55,"NeverMarried","Male",0,"2","6",2
+"Francavilla Fontana",58,"Married","Female",1,"4","4",3
+"Francavilla Fontana",61,"Married","Female",1,"2","4",3
+"Ruffano",59,"NeverMarried","Male",0,"3","7",3
+"Latiano",58,"NeverMarried","Female",0,"2","2",4
+"Parabita",46,"Married","Female",0,"2","7",4
+"Casarano",33,"NeverMarried","Male",1,"3","2",2
+"Taranto",57,"NeverMarried","Female",0,"4","8",4
+"Villa Castelli",41,"Married","Male",1,"3","2",4
+"Galatone",23,"Married","Male",1,"2","6",2
+"Guagnano",27,"NeverMarried","Female",1,"2","4",2
+"Brindisi",60,"Married","Male",0,"3","2",3
+"Laterza",57,"Married","Male",1,"2","4",3
+"Castrignano de' Greci",42,"Married","Male",1,"4","5",1
+"Castrignano del Capo",61,"Married","Male",0,"3","3",4
+"Melendugno",19,"Married","Female",1,"3","5",1
+"San Donaci",56,"NeverMarried","Male",1,"2","6",2
+"Cutrofiano",57,"Married","Male",0,"4","4",4
+"Fasano",37,"NeverMarried","Female",1,"2","2",3
+"Melpignano",59,"Married","Female",1,"3","5",3
+"Fasano",30,"NeverMarried","Female",1,"2","5",3
+"Francavilla Fontana",23,"NeverMarried","Male",1,"2","2",2
+"Carosino",34,"NeverMarried","Female",1,"3","3",1
+"Taranto",62,"NeverMarried","Male",1,"2","6",4
+"Taranto",22,"Married","Female",1,"1","4",3
+"San Pancrazio Salentino",63,"NeverMarried","Female",1,"3","3",4
+"Torricella",64,"Married","Female",1,"2","6",1
+"Leporano",62,"Married","Male",0,"1","1",1
+"Galatone",44,"Married","Male",0,"4","6",1
+"Leverano",47,"Married","Male",1,"2","5",2
+"Racale",21,"Divorced","Male",1,"1","3",2
+"Ceglie Messapica",20,"Married","Female",1,"2","3",1
+"Carpignano Salentino",28,"NeverMarried","Female",1,"4","7",2
+"Muro Leccese",43,"NeverMarried","Female",1,"2","1",2
+"Avetrana",32,"Married","Female",0,"1","6",4
+"Massafra",41,"Married","Male",1,"3","6",2
+"Taranto",23,"NeverMarried","Female",1,"3","4",1
+"Cisternino",65,"NeverMarried","Male",1,"4","3",1
+"Taranto",41,"NeverMarried","Female",0,"2","6",3
+"Monteparano",61,"Married","Male",1,"1","5",2
+"Latiano",26,"Married","Male",1,"2","4",1
+"San Giorgio Ionico",47,"Married","Female",1,"1","5",3
+"Casarano",44,"Married","Female",1,"3","3",3
+"Ostuni",43,"Married","Male",1,"2","5",3
+"Aradeo",40,"Married","Male",0,"4","4",3
+"Lecce",34,"Divorced","Female",1,"4","2",1
+"Vernole",56,"Married","Female",1,"2","8",4
+"Vernole",64,"Married","Male",0,"3","5",2
+"Martano",21,"NeverMarried","Male",0,"4","2",3
+"Lecce",27,"Divorced","Female",1,"1","5",1
+"Ginosa",57,"NeverMarried","Male",1,"4","6",2
+"Martina Franca",44,"NeverMarried","Female",1,"1","4",3
+"Manduria",58,"Married","Female",1,"3","1",4
+"Massafra",31,"Married","Female",1,"1","4",1
+"Lecce",38,"Married","Female",1,"3","6",4
+"Gagliano del Capo",31,"Married","Male",1,"2","4",1
+"Lecce",52,"Divorced","Male",1,"2","5",4
+"Manduria",43,"Married","Male",0,"3","4",1
+"Grottaglie",21,"Married","Female",1,"2","3",1
+"Massafra",38,"NeverMarried","Female",1,"1","5",2
+"Bagnolo del Salento",37,"NeverMarried","Female",1,"4","5",2
+"Francavilla Fontana",46,"Married","Male",1,"2","5",4
+"Calimera",55,"Divorced","Female",1,"3","3",1
+"Copertino",26,"NeverMarried","Female",1,"2","3",1
+"Manduria",39,"Married","Male",1,"1","4",1
+"Cutrofiano",32,"NeverMarried","Female",1,"3","3",1
+"Massafra",30,"Married","Female",1,"2","4",4
+"Lecce",48,"Married","Female",1,"1","5",3
+"Monteroni di Lecce",51,"NeverMarried","Male",1,"1","5",3
+"Grottaglie",58,"Married","Female",1,"2","3",2
+"Taranto",55,"NeverMarried","Female",1,"4","3",2
+"Carmiano",26,"NeverMarried","Female",1,"4","2",4
+"Veglie",44,"Married","Female",1,"1","7",4
+"Lizzanello",23,"Married","Female",1,"1","3",2
+"Cavallino",37,"NeverMarried","Female",0,"3","5",2
+"Martano",50,"NeverMarried","Male",1,"3","3",4
+"Carosino",52,"Divorced","Female",1,"1","4",3
+"Taviano",30,"NeverMarried","Female",1,"4","3",1
+"Ginosa",54,"NeverMarried","Male",0,"2","5",2
+"Copertino",63,"Married","Male",0,"4","6",2
+"Brindisi",37,"NeverMarried","Male",0,"3","5",1
+"Galatina",49,"Married","Female",1,"1","4",4
+"San Giorgio Ionico",32,"NeverMarried","Male",1,"3","4",2
+"Fasano",48,"Married","Male",0,"1","6",4
+"Surbo",60,"Married","Male",1,"2","5",4
+"Carpignano Salentino",33,"Married","Female",1,"3","4",1
+"Lecce",59,"NeverMarried","Female",1,"4","1",2
+"Taranto",28,"Married","Male",1,"4","5",1
+"Sannicola",32,"NeverMarried","Female",0,"2","6",4
+"Castrignano del Capo",28,"Married","Female",1,"2","4",2
+"Ostuni",60,"Married","Female",0,"2","2",3
+"Taranto",53,"NeverMarried","Female",1,"3","4",2
+"Carmiano",51,"Married","Male",1,"2","2",3
+"Mesagne",56,"NeverMarried","Male",1,"1","3",3
+"Mesagne",29,"Married","Female",1,"5","2",4
+"Fasano",49,"Widowed","Female",1,"4","7",2
+"Trepuzzi",64,"Married","Female",1,"3","5",4
+"Melendugno",21,"Divorced","Male",0,"2","2",4
+"Lecce",25,"Married","Female",1,"4","4",1
+"Martina Franca",52,"Married","Male",0,"1","5",4
+"Brindisi",54,"Divorced","Male",0,"2","3",2
+"Lecce",57,"NeverMarried","Female",1,"3","3",3
+"Taranto",56,"NeverMarried","Female",1,"5","2",1
+"Laterza",50,"Married","Male",1,"2","4",4
+"Lizzano",18,"Married","Female",0,"5","6",2
+"Seclì",52,"NeverMarried","Female",1,"3","6",2
+"Salice Salentino",53,"Married","Female",0,"1","5",4
+"Lizzanello",19,"NeverMarried","Male",0,"2","5",3
+"Latiano",42,"Married","Male",1,"2","4",3
+"Aradeo",65,"Married","Male",1,"3","1",1
+"Francavilla Fontana",42,"Married","Female",1,"2","6",4
+"Novoli",24,"Married","Female",0,"3","3",3
+"Torchiarolo",24,"NeverMarried","Male",1,"2","7",2
+"Taranto",21,"NeverMarried","Female",0,"2","4",4
+"Manduria",42,"NeverMarried","Male",1,"4","5",2
+"Fasano",19,"Married","Female",1,"3","3",1
+"Ginosa",58,"Married","Male",1,"2","4",4
+"Nardò",62,"Married","Male",0,"4","6",3
+"Nardò",43,"NeverMarried","Male",0,"2","4",3
+"Lecce",21,"Married","Female",1,"5","6",2
+"Campi Salentina",49,"NeverMarried","Male",0,"1","5",1
+"Guagnano",52,"Married","Female",1,"3","5",2
+"Ortelle",22,"NeverMarried","Female",1,"2","7",3
+"Salice Salentino",50,"Married","Male",1,"5","4",2
+"Brindisi",24,"NeverMarried","Male",0,"2","4",3
+"Squinzano",31,"NeverMarried","Male",1,"4","5",2
+"Martina Franca",35,"NeverMarried","Female",0,"1","5",4
+"Martina Franca",49,"NeverMarried","Female",0,"1","4",4
+"Brindisi",19,"NeverMarried","Female",1,"2","5",3
+"Carovigno",59,"Married","Male",1,"2","3",2
+"Galatina",20,"NeverMarried","Female",1,"4","7",2
+"Surbo",53,"NeverMarried","Male",0,"4","6",2
+"Brindisi",24,"Married","Female",1,"1","3",3
+"Lecce",51,"Married","Male",0,"1","3",3
+"Taranto",29,"NeverMarried","Male",1,"4","3",2
+"Grottaglie",65,"NeverMarried","Male",0,"1","4",1
+"Laterza",38,"Married","Male",0,"2","2",2
+"Collepasso",46,"NeverMarried","Female",1,"4","5",1
+"Racale",55,"Married","Male",1,"2","5",3
+"Lecce",39,"Married","Male",1,"2","7",4
+"Statte",19,"Divorced","Male",0,"2","6",3
+"Crispiano",25,"NeverMarried","Female",1,"2","3",1
+"Statte",33,"Married","Female",1,"1","4",4
+"Manduria",61,"Divorced","Male",0,"2","3",1
+"Diso",52,"Married","Male",0,"2","6",3
+"Lecce",21,"Married","Male",0,"2","4",1
+"San Vito dei Normanni",54,"NeverMarried","Male",1,"2","3",2
+"Aradeo",39,"NeverMarried","Female",1,"3","5",3
+"Copertino",21,"Divorced","Female",0,"3","3",3
+"Laterza",35,"Married","Female",1,"2","5",4
+"Brindisi",56,"Married","Male",1,"2","3",4
+"Taviano",42,"Married","Female",1,"2","1",3
+"Lecce",37,"NeverMarried","Female",1,"2","4",4
+"Taurisano",52,"Married","Female",0,"4","4",3
+"Taranto",28,"Married","Female",0,"3","2",1
+"Martina Franca",35,"NeverMarried","Female",1,"4","4",2
+"Francavilla Fontana",24,"NeverMarried","Female",1,"2","3",1
+"Brindisi",56,"Married","Female",1,"3","4",4
+"Lecce",65,"NeverMarried","Female",1,"4","6",4
+"Monteroni di Lecce",57,"Married","Male",1,"2","7",4
+"Fasano",39,"Married","Male",0,"2","4",4
+"Lecce",46,"Married","Male",1,"3","2",1
+"Lecce",55,"NeverMarried","Male",1,"5","6",2
+"Fragagnano",52,"NeverMarried","Female",1,"2","6",4
+"Grottaglie",42,"Married","Female",0,"4","2",1
+"Corsano",36,"Married","Female",0,"1","8",4
+"Manduria",24,"NeverMarried","Female",1,"4","3",1
+"Taranto",60,"Married","Female",1,"1","4",2
+"Lecce",21,"Married","Female",0,"2","4",3
+"Taranto",32,"Married","Female",1,"2","3",1
+"Supersano",32,"Married","Female",1,"1","4",3
+"Erchie",35,"Married","Female",0,"2","3",3
+"Gallipoli",63,"Married","Male",1,"4","5",4
+"Castellaneta",42,"Married","Male",0,"4","7",1
+"Massafra",58,"NeverMarried","Female",1,"3","5",2
+"Ceglie Messapica",57,"Married","Male",1,"3","2",1
+"Maruggio",43,"Divorced","Male",1,"3","5",2
+"Cavallino",55,"Married","Female",1,"1","2",2
+"Santa Cesarea Terme",61,"NeverMarried","Male",1,"2","2",3
+"Oria",49,"Married","Male",1,"4","5",2
+"Fasano",48,"Married","Female",1,"3","3",1
+"Sannicola",18,"Married","Male",1,"3","7",2
+"Trepuzzi",62,"Married","Female",0,"1","4",1
+"Lecce",36,"NeverMarried","Female",1,"3","5",3
+"San Pancrazio Salentino",23,"NeverMarried","Male",1,"4","3",4
+"Fasano",57,"NeverMarried","Male",0,"3","5",3
+"Francavilla Fontana",47,"NeverMarried","Male",1,"3","6",2
+"Monteiasi",27,"NeverMarried","Female",0,"3","5",2
+"Martina Franca",47,"Married","Female",1,"2","5",2
+"Ostuni",39,"Married","Female",0,"3","4",1
+"Francavilla Fontana",56,"NeverMarried","Male",1,"4","5",1
+"Palagiano",22,"Married","Male",1,"1","4",3
+"Guagnano",37,"Married","Male",0,"4","4",2
+"Cavallino",53,"NeverMarried","Male",0,"2","3",4
+"Galatone",35,"Married","Male",1,"1","2",3
+"Mesagne",60,"Married","Male",1,"5","4",2
+"Lecce",26,"Married","Female",1,"2","4",2
+"Taranto",55,"NeverMarried","Male",1,"4","5",2
+"Muro Leccese",63,"NeverMarried","Male",1,"2","5",2
+"San Vito dei Normanni",26,"Widowed","Male",0,"5","2",1
+"Mesagne",37,"Married","Male",1,"2","6",1
+"Brindisi",26,"Divorced","Male",0,"2","4",4
+"Taranto",57,"NeverMarried","Female",0,"3","6",3
+"Lecce",39,"NeverMarried","Male",0,"2","3",4
+"Martina Franca",23,"NeverMarried","Male",1,"1","2",1
+"Mottola",48,"NeverMarried","Female",1,"4","5",3
+"Novoli",60,"Married","Male",0,"1","3",3
+"Martina Franca",41,"NeverMarried","Female",0,"3","3",1
+"Nardò",41,"NeverMarried","Male",1,"2","6",1
+"Fasano",34,"NeverMarried","Female",0,"2","3",3
+"Massafra",65,"NeverMarried","Male",1,"2","3",3
+"Laterza",62,"NeverMarried","Female",1,"1","2",3
+"Maruggio",65,"Divorced","Male",0,"3","6",3
+"Porto Cesareo",19,"NeverMarried","Female",1,"5","7",2
+"Taranto",39,"Married","Female",1,"2","4",3
+"Maglie",32,"NeverMarried","Female",1,"1","3",2
+"Taranto",57,"Married","Female",1,"2","3",3
+"Nardò",53,"NeverMarried","Female",0,"2","4",3
+"Ostuni",64,"NeverMarried","Female",1,"5","4",2
+"Tiggiano",22,"Married","Male",1,"4","6",1
+"Taranto",56,"NeverMarried","Male",0,"3","4",3
+"Mesagne",44,"NeverMarried","Female",1,"3","4",2
+"Castri di Lecce",53,"NeverMarried","Female",1,"2","7",3
+"Lecce",40,"NeverMarried","Female",1,"2","7",4
+"Melissano",51,"Divorced","Male",1,"2","4",4
+"Alliste",22,"Married","Female",0,"1","2",1
+"Monteroni di Lecce",20,"Married","Male",0,"3","5",4
+"Grottaglie",55,"NeverMarried","Male",0,"1","3",3
+"Ceglie Messapica",65,"NeverMarried","Male",1,"2","8",4
+"Carovigno",59,"Married","Male",0,"3","6",2
+"Mesagne",60,"NeverMarried","Female",0,"3","2",3
+"Oria",60,"Married","Female",0,"1","4",2
+"Ugento",48,"NeverMarried","Female",1,"4","5",2
+"Martano",63,"NeverMarried","Male",1,"2","3",1
+"Fasano",57,"NeverMarried","Male",1,"4","3",3
+"Mesagne",61,"Married","Male",1,"2","5",1
+"Ceglie Messapica",44,"NeverMarried","Female",0,"1","4",1
+"Francavilla Fontana",47,"Married","Male",1,"2","4",4
+"Galatone",46,"Married","Male",0,"4","5",4
+"Fasano",28,"NeverMarried","Male",1,"4","3",2
+"Leverano",21,"Married","Female",0,"1","7",1
+"Galatone",52,"Married","Male",1,"2","2",3
+"Castellaneta",46,"Married","Female",1,"3","6",4
+"Latiano",24,"Married","Male",1,"2","7",2
+"Taurisano",42,"Married","Female",1,"4","2",3
+"Francavilla Fontana",63,"NeverMarried","Male",1,"4","4",2
+"Lecce",54,"Married","Male",0,"1","1",4
+"Ceglie Messapica",60,"Married","Male",1,"2","5",4
+"Laterza",33,"Married","Male",0,"2","4",3
+"Maruggio",30,"NeverMarried","Female",1,"2","4",4
+"Taranto",56,"NeverMarried","Male",1,"3","5",3
+"San Marzano di San Giuseppe",58,"NeverMarried","Male",0,"4","2",1
+"Taranto",39,"Married","Male",1,"2","4",2
+"Martina Franca",40,"NeverMarried","Male",0,"2","5",4
+"Taranto",51,"NeverMarried","Female",1,"2","3",4
+"Castellaneta",26,"Married","Female",0,"3","4",1
+"Fasano",32,"NeverMarried","Male",0,"1","3",4
+"Grottaglie",53,"NeverMarried","Male",1,"1","3",3
+"Tricase",38,"NeverMarried","Female",1,"5","3",1
+"Massafra",63,"NeverMarried","Male",1,"5","4",2
+"Galatone",31,"NeverMarried","Male",0,"2","6",3
+"Campi Salentina",62,"NeverMarried","Female",1,"3","4",4
+"Tricase",48,"NeverMarried","Female",1,"2","3",1
+"Matino",61,"NeverMarried","Male",0,"2","7",4
+"Taranto",34,"Married","Female",1,"1","4",3
+"Lecce",59,"Married","Female",1,"1","2",2
+"Martina Franca",30,"Married","Male",0,"2","1",3
+"Taranto",34,"NeverMarried","Male",1,"1","2",4
+"San Donato di Lecce",63,"Married","Male",0,"1","6",4
+"Crispiano",56,"NeverMarried","Male",1,"2","4",4
+"Monteroni di Lecce",65,"Divorced","Male",0,"2","2",3
+"Taviano",39,"NeverMarried","Male",1,"2","2",1
+"Brindisi",33,"Married","Female",1,"1","3",3
+"Veglie",63,"Divorced","Female",1,"2","4",4
+"Manduria",53,"Married","Female",1,"3","6",2
+"San Michele Salentino",39,"NeverMarried","Male",1,"1","4",3
+"Brindisi",34,"NeverMarried","Female",1,"3","7",1
+"Ostuni",64,"Married","Female",0,"1","7",3
+"Bagnolo del Salento",51,"NeverMarried","Male",1,"3","5",3
+"Pulsano",24,"NeverMarried","Male",0,"1","4",1
+"Cursi",58,"Married","Female",0,"2","7",4
+"Presicce-Acquarica",37,"NeverMarried","Male",0,"3","4",1
+"Nardò",53,"NeverMarried","Male",1,"4","7",3
+"Mesagne",23,"NeverMarried","Female",0,"4","5",2
+"Taranto",50,"NeverMarried","Female",0,"2","7",3
+"Martano",18,"NeverMarried","Female",1,"1","2",3
+"Torchiarolo",39,"Married","Male",1,"5","6",2
+"Surbo",58,"Married","Female",1,"3","2",4
+"Martina Franca",50,"Married","Male",0,"2","3",2
+"Martina Franca",59,"NeverMarried","Male",0,"4","1",1
+"Erchie",52,"Married","Female",0,"2","1",2
+"Laterza",35,"NeverMarried","Male",0,"3","7",2
+"Pulsano",45,"NeverMarried","Female",1,"4","4",4
+"Taranto",53,"Married","Female",1,"3","2",1
+"Ostuni",63,"Married","Female",1,"3","3",1
+"Taranto",21,"NeverMarried","Male",1,"3","4",1
+"Brindisi",29,"NeverMarried","Male",1,"3","4",1
+"Melissano",45,"Married","Male",1,"3","4",1
+"Taviano",47,"NeverMarried","Female",0,"2","7",4
+"Brindisi",23,"Divorced","Male",0,"2","2",3
+"Martina Franca",56,"NeverMarried","Female",0,"2","4",2
+"Lecce",56,"NeverMarried","Female",1,"1","7",3
+"Ugento",40,"Married","Female",1,"5","3",4
+"Taranto",42,"NeverMarried","Female",0,"2","2",3
+"Zollino",48,"Married","Female",1,"4","5",2
+"Cavallino",62,"Married","Male",0,"3","3",4
+"Casarano",44,"Married","Female",1,"2","1",2
+"Carovigno",41,"Married","Female",1,"2","2",3
+"Ruffano",59,"Married","Male",1,"1","4",4
+"Copertino",50,"Married","Male",1,"1","2",3
+"Francavilla Fontana",22,"Married","Female",0,"2","3",1
+"Cellino San Marco",55,"NeverMarried","Male",0,"4","5",1
+"Taviano",61,"Married","Female",0,"1","2",3
+"Ostuni",53,"NeverMarried","Male",1,"1","6",1
+"Lecce",49,"NeverMarried","Female",1,"1","6",4
+"San Michele Salentino",59,"Married","Female",0,"4","5",3
+"Galatone",58,"Married","Female",1,"3","3",1
+"San Pietro Vernotico",41,"NeverMarried","Female",1,"3","4",2
+"Lecce",49,"NeverMarried","Female",0,"3","3",1
+"Pulsano",53,"Married","Female",1,"2","1",2
+"Taranto",51,"Married","Male",1,"3","5",2
+"Copertino",48,"NeverMarried","Male",1,"4","5",3
+"Palagianello",64,"NeverMarried","Female",1,"3","3",2
+"Brindisi",52,"Married","Male",1,"4","5",4
+"Casarano",28,"NeverMarried","Female",1,"2","7",4
+"Taviano",26,"Married","Female",1,"3","6",4
+"Brindisi",26,"NeverMarried","Female",1,"5","5",4
+"Martina Franca",41,"Married","Male",1,"5","4",3
+"Taranto",22,"Married","Female",1,"4","1",4
+"Lecce",53,"Married","Male",1,"1","7",4
+"Galatina",62,"NeverMarried","Female",1,"3","5",2
+"Vernole",44,"Married","Female",1,"2","4",4
+"Francavilla Fontana",21,"Married","Male",0,"1","5",1
+"Fasano",56,"NeverMarried","Female",0,"2","6",1
+"Specchia",62,"NeverMarried","Female",0,"2","6",3
+"Taranto",20,"NeverMarried","Male",1,"3","4",1
+"Lequile",33,"NeverMarried","Male",1,"1","1",3
+"Francavilla Fontana",56,"NeverMarried","Male",1,"3","1",2
+"Scorrano",49,"Married","Male",1,"3","4",4
+"Lecce",22,"NeverMarried","Male",0,"3","7",2
+"Andrano",49,"NeverMarried","Male",1,"1","3",1
+"Martina Franca",34,"Married","Male",1,"2","5",3
+"Neviano",45,"NeverMarried","Female",1,"2","1",3
+"Lecce",24,"Married","Male",1,"4","5",2
+"Carovigno",55,"NeverMarried","Male",0,"2","7",1
+"Monteroni di Lecce",27,"NeverMarried","Female",1,"1","2",3
+"Lecce",25,"NeverMarried","Female",1,"1","1",4
+"Castellaneta",61,"Married","Female",1,"3","5",2
+"Trepuzzi",36,"Married","Female",1,"3","4",1
+"Cutrofiano",42,"Married","Male",1,"1","2",3
+"Ugento",38,"NeverMarried","Male",0,"3","3",4
+"Brindisi",41,"Married","Female",0,"2","6",1
+"Ostuni",54,"NeverMarried","Male",1,"5","3",1
+"Botrugno",54,"Married","Male",1,"1","3",2
+"Crispiano",34,"NeverMarried","Male",1,"2","3",2
+"Pulsano",52,"NeverMarried","Male",1,"5","7",3
+"Casarano",60,"NeverMarried","Male",1,"3","4",4
+"Maruggio",47,"Married","Female",1,"3","2",2
+"Sava",65,"NeverMarried","Female",0,"3","7",3
+"Andrano",18,"NeverMarried","Male",1,"4","5",3
+"Ginosa",24,"Married","Female",1,"2","3",2
+"Galatina",62,"NeverMarried","Female",0,"3","3",1
+"San Giorgio Ionico",56,"Married","Male",0,"4","3",3
+"Fasano",58,"NeverMarried","Male",0,"2","7",4
+"Taranto",18,"NeverMarried","Female",1,"3","5",1
+"Castrignano de' Greci",60,"Married","Female",1,"2","5",2
+"Fasano",46,"Married","Female",0,"2","3",3
+"Lecce",63,"NeverMarried","Male",0,"1","3",3
+"Lecce",45,"Married","Male",1,"3","4",1
+"San Pietro Vernotico",56,"NeverMarried","Female",1,"2","5",1
+"Monteparano",35,"Married","Male",0,"5","4",2
+"Martina Franca",26,"Married","Male",1,"1","5",1
+"Ruffano",52,"Married","Female",1,"2","3",3
+"Oria",57,"NeverMarried","Female",1,"4","2",1
+"San Cesario di Lecce",49,"NeverMarried","Female",1,"4","5",2
+"Oria",26,"NeverMarried","Female",1,"3","4",1
+"Porto Cesareo",20,"Married","Male",1,"4","2",1
+"Copertino",52,"Married","Male",0,"3","5",4
+"Erchie",32,"Married","Male",0,"4","5",2
+"Taranto",57,"NeverMarried","Female",0,"3","3",3
+"Ginosa",19,"Married","Female",1,"3","4",1
+"Lecce",39,"Married","Male",1,"1","5",4
+"Manduria",42,"Divorced","Male",1,"5","5",1
+"Brindisi",25,"Married","Male",0,"1","4",4
+"San Giorgio Ionico",26,"Married","Male",1,"1","5",2
+"Uggiano la Chiesa",43,"NeverMarried","Female",1,"2","5",3
+"Lecce",42,"Married","Female",1,"2","7",2
+"Guagnano",40,"Married","Male",0,"3","4",1
+"Carovigno",58,"NeverMarried","Female",0,"2","6",4
+"Francavilla Fontana",58,"NeverMarried","Female",1,"3","2",2
+"Taranto",55,"Married","Female",0,"2","5",4
+"Palagiano",62,"Married","Female",0,"2","4",4
+"Ginosa",44,"Married","Male",0,"1","4",4
+"San Cesario di Lecce",51,"NeverMarried","Female",1,"3","4",3
+"Manduria",28,"NeverMarried","Female",1,"2","6",4
+"Grottaglie",41,"Married","Female",1,"4","2",2
+"Carovigno",36,"Married","Male",1,"2","2",3
+"Mottola",57,"Married","Female",1,"1","7",4
+"Crispiano",22,"NeverMarried","Male",1,"1","3",3
+"Massafra",36,"Married","Female",1,"4","3",2
+"Francavilla Fontana",24,"NeverMarried","Female",0,"2","2",1
+"Nardò",55,"NeverMarried","Female",0,"2","2",3
+"Squinzano",22,"NeverMarried","Female",0,"3","4",1
+"Taranto",48,"NeverMarried","Female",1,"4","6",3
+"Palagiano",50,"NeverMarried","Female",1,"2","7",2
+"Fasano",50,"Married","Female",1,"3","3",1
+"Taranto",35,"Married","Male",0,"3","2",1
+"Fasano",47,"Widowed","Male",1,"1","5",4
+"San Vito dei Normanni",43,"Married","Female",0,"3","6",2
+"Fasano",49,"Married","Female",0,"1","3",3
+"Lecce",57,"NeverMarried","Female",0,"1","7",1
+"Lecce",62,"NeverMarried","Female",1,"1","2",4
+"Lizzano",49,"Divorced","Female",0,"3","4",2
+"Brindisi",46,"Divorced","Female",1,"1","2",3
+"Alezio",49,"Married","Male",1,"3","3",3
+"Supersano",64,"NeverMarried","Male",1,"1","5",2
+"Alliste",59,"Married","Male",1,"2","7",4
+"Martina Franca",57,"Married","Male",0,"2","2",3
+"Cellino San Marco",59,"Married","Male",1,"2","6",4
+"Erchie",24,"Married","Male",1,"2","4",1
+"San Pancrazio Salentino",22,"Divorced","Female",1,"2","1",4
+"Patù",51,"NeverMarried","Female",0,"2","4",4
+"Taranto",41,"NeverMarried","Female",0,"1","5",4
+"Monteroni di Lecce",47,"NeverMarried","Female",1,"4","3",1
+"Ugento",26,"Married","Male",1,"4","4",2
+"Maglie",49,"Married","Female",1,"5","4",1
+"Mesagne",62,"Married","Male",0,"4","2",3
+"Poggiardo",59,"Married","Female",0,"2","2",1
+"Sternatia",18,"Married","Female",1,"4","6",2
+"Corsano",55,"Married","Female",1,"5","6",2
+"Sternatia",20,"Married","Female",1,"2","2",3
+"Sava",46,"NeverMarried","Female",1,"4","3",3
+"Torricella",22,"Divorced","Male",1,"1","5",3
+"Oria",47,"Married","Male",0,"2","5",1
+"Mottola",32,"Married","Female",1,"1","4",4
+"Ruffano",58,"Married","Male",0,"3","3",3
+"Taranto",29,"NeverMarried","Female",1,"4","6",4
+"Cisternino",28,"Married","Male",0,"4","8",2
+"Brindisi",44,"NeverMarried","Female",0,"2","5",3
+"Lequile",18,"Married","Female",1,"3","3",1
+"Brindisi",22,"Married","Male",1,"3","3",1
+"Mottola",58,"Married","Male",1,"2","7",4
+"Brindisi",48,"Married","Male",0,"5","5",2
+"Castellaneta",56,"NeverMarried","Female",1,"2","3",3
+"Ugento",60,"Married","Male",0,"3","4",2
+"Carovigno",58,"NeverMarried","Female",1,"3","2",3
+"Montesano Salentino",31,"Married","Male",1,"3","8",4
+"Latiano",27,"Married","Female",1,"4","5",2
+"Surbo",37,"NeverMarried","Female",1,"3","4",1
+"Monteroni di Lecce",19,"Married","Female",1,"4","5",3
+"Martina Franca",44,"NeverMarried","Female",1,"1","5",4
+"Brindisi",57,"NeverMarried","Male",0,"2","7",4
+"Brindisi",38,"NeverMarried","Female",1,"2","3",3
+"Copertino",58,"Married","Female",1,"3","5",2
+"Fragagnano",47,"Married","Male",1,"4","3",1
+"Brindisi",23,"Married","Female",0,"4","4",2
+"Martano",50,"Married","Male",1,"4","8",3
+"Matino",47,"Married","Female",1,"2","3",3
+"Taurisano",60,"Married","Male",1,"3","2",1
+"Copertino",65,"NeverMarried","Male",0,"1","6",4
+"Villa Castelli",32,"NeverMarried","Female",1,"4","6",3
+"Mottola",47,"Married","Female",1,"3","6",3
+"Melendugno",46,"NeverMarried","Female",0,"2","4",3
+"Tricase",48,"Married","Male",1,"4","3",4
+"Brindisi",55,"NeverMarried","Male",1,"2","4",1
+"Taranto",24,"NeverMarried","Male",0,"2","4",2
+"Fasano",36,"NeverMarried","Female",1,"2","5",4
+"Martina Franca",64,"NeverMarried","Female",1,"3","4",4
+"Cursi",37,"Married","Male",1,"2","2",3
+"Cisternino",50,"NeverMarried","Female",0,"2","3",3
+"Supersano",49,"Married","Female",1,"2","4",2
+"Laterza",42,"Married","Male",1,"1","4",1
+"Brindisi",56,"Married","Female",0,"2","4",2
+"Cavallino",64,"NeverMarried","Female",1,"2","2",3
+"Grottaglie",61,"NeverMarried","Male",1,"4","2",2
+"Castro",29,"Married","Male",0,"4","8",1
+"Cavallino",56,"Divorced","Male",0,"2","6",3
+"Tuglie",38,"Married","Male",0,"3","5",2
+"Taranto",23,"Married","Female",1,"3","4",3
+"Salice Salentino",19,"Married","Male",1,"3","1",1
+"Monteiasi",42,"Married","Female",1,"2","3",3
+"Taranto",63,"NeverMarried","Male",1,"2","2",1
+"San Cesario di Lecce",50,"Married","Male",0,"2","3",3
+"Lecce",20,"Married","Male",1,"3","2",1
+"Mesagne",45,"Married","Male",1,"3","3",2
+"Castro",34,"NeverMarried","Female",0,"1","4",3
+"Taranto",45,"Married","Female",1,"4","3",1
+"Poggiardo",57,"NeverMarried","Male",0,"2","2",2
+"Gallipoli",25,"Married","Female",1,"3","5",2
+"Sogliano Cavour",41,"Married","Male",1,"2","5",4
+"Tricase",55,"Married","Male",0,"2","3",2
+"Taranto",18,"Married","Male",0,"4","5",3
+"Fasano",54,"NeverMarried","Male",1,"2","6",4
+"Ostuni",23,"Married","Female",1,"4","4",1
+"Presicce-Acquarica",59,"Married","Male",1,"2","3",4
+"Monteroni di Lecce",30,"NeverMarried","Male",1,"1","5",2
+"Sava",44,"Married","Male",0,"1","3",2
+"Fasano",45,"Married","Male",0,"3","3",2
+"Leverano",42,"NeverMarried","Male",1,"2","3",3
+"Cisternino",45,"Married","Male",1,"2","4",1
+"Brindisi",28,"NeverMarried","Male",1,"3","4",3
+"Oria",20,"Married","Female",0,"2","6",2
+"Grottaglie",31,"NeverMarried","Male",1,"2","7",3
+"Nardò",51,"NeverMarried","Male",1,"3","4",3
+"Novoli",56,"NeverMarried","Female",1,"3","7",1
+"Cavallino",52,"Married","Female",0,"4","3",2
+"Galatina",49,"Married","Male",1,"1","5",4
+"Surbo",56,"Married","Female",1,"3","4",2
+"Leverano",30,"Married","Male",0,"1","6",4
+"Erchie",29,"Married","Female",1,"1","4",2
+"Fasano",64,"Married","Male",0,"3","6",2
+"Lecce",62,"NeverMarried","Female",0,"5","6",4
+"Ugento",52,"Married","Female",1,"2","5",2
+"Martina Franca",58,"NeverMarried","Male",1,"4","3",3

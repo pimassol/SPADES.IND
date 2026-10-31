@@ -1,0 +1,21 @@
+Package: SPADES.IND
+Type: Package
+Title: Energy-Driven Privacy-Aware Synthetic Microdata Research Toolkit
+Version: 0.1.8
+Authors@R: person("Pierpaolo", "Massoli", role = c("aut", "cre"),
+    email = "pimassol@istat.it")
+Description: Bayesian-network proposals and energy-driven adaptive sampling
+    generate a candidate pool with plausibility, distance-based privacy and
+    diversity penalties. Incremental simulated annealing selects a target using
+    marginal, pairwise and conditional fidelity with optional classification or
+    regression utility. Includes preparation, numeric reconstruction and tests.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils, methods, tools, graphics, grDevices, Rcpp, parallel, withr (>= 2.5.0),
+    rngtools
+Suggests: rpart, xgboost, Matrix, doParallel, foreach, ranger, bnlearn,
+    data.table, ggplot2, keras, tensorflow, codetools, knitr, rmarkdown
+LinkingTo: Rcpp
+SystemRequirements: C++11
+VignetteBuilder: knitr

@@ -1,0 +1,21 @@
+"term","before","after"
+"marginal:municipality_residence",0.002,0.002
+"marginal:civil_status",0.000222222222222225,0.000222222222222225
+"marginal:gender",0,0
+"marginal:occupation",0,0
+"marginal:physical_activity",0.000111111111111114,0.000111111111111114
+"marginal:genetic_predisposition",0.000222222222222228,0.000222222222222228
+"marginal:diagnosis",0.000111111111111117,0.000111111111111117
+"marginal:age",0.000444444444444452,0.000444444444444452
+"pair:age / civil_status",0.00466666666666668,0.00466666666666668
+"pair:age / occupation",0.00122222222222223,0.00122222222222223
+"pair:age / genetic_predisposition",0.0107777777777778,0.0107777777777778
+"pair:diagnosis / physical_activity",0.0955555555555556,0.0955555555555556
+"pair:genetic_predisposition / diagnosis",0.0795555555555556,0.0795555555555556
+"conditional:civil_status | municipality_residence",0.0274632810474987,0.0274632810474987
+"conditional:gender | municipality_residence",0.00910776186309478,0.00910776186309478
+"conditional:occupation | municipality_residence",0.00990318370270238,0.00990318370270238
+"conditional:physical_activity | municipality_residence",0.0475405314504563,0.0475405314504563
+"conditional:genetic_predisposition | municipality_residence",0.0738848809081764,0.0738848809081764
+"conditional:diagnosis | municipality_residence",0.0341138996598654,0.0341138996598654
+"conditional:age | municipality_residence",0.157792236437908,0.157792236437908

@@ -1,0 +1,165 @@
+---
+title: "SPADES.IND: three response scenarios"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{SPADES.IND: three response scenarios}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = "#>")
+```
+
+## Scope and data preparation
+
+SPADES.IND generates a categorical candidate pool (flight), selects a fixed-size
+subset (landing), and reconstructs numerical variables within their original
+intervals. Supply training data only. Reserve a real holdout before preparation,
+binning, model fitting or guide construction.
+
+Rows with actual missing values, textual `NA`, internal missing markers or
+additional user-declared `missing_tokens` are omitted once. The same cleaned
+reference is used throughout. Missingness is not modelled or generated. A literal
+`Missing` category is ordinary data unless explicitly declared missing.
+Constant columns and unsupported column types require preprocessing.
+
+Examples below are opt-in and use artificial data. They are not executed during
+vignette building; the corresponding small workflows are tested in the package
+test suite. Their very short chains demonstrate calls, not statistical quality.
+
+## Three complete workflows
+
+The default main workflow uses six chains and six workers. The small example
+uses one worker and intentionally tiny settings. Production settings require
+validation for the application; there is no universal optimal schedule.
+
+```{r three-scenarios}
+# Run explicitly after installing SPADES.IND. Uses artificial data only.
+local({
+  if (!requireNamespace("SPADES.IND", quietly = TRUE)) stop("Install SPADES.IND first.")
+  withr::local_seed(444L)
+  d <- data.frame(x = rnorm(120), group = rep(letters[1:8], 15),
+                  category = rep(LETTERS[1:6], 20))
+  d$income <- 10 + 3*d$x + as.integer(factor(d$group)) + rnorm(120)
+  small_run <- function(data, target, mode) SPADES.IND::spades_synthesise(
+    data, n=8L, target=target, mode=mode, n_pool=20L, n_bins=4L,
+    chains=1L, workers=1L, seed=84L, pairs=list(), conditional_on="group",
+    fit_control=list(n_fake=30L,nrounds=3L,bn_restart=0L,nthread=1L),
+    flight_control=list(burnin=3L,thin=1L,log_every=20L),
+    landing_control=list(L=30L,pilot=10L,log_every=30L))
+  categorical <- d
+  categorical$income <- factor(ifelse(d$income > median(d$income), "high", "low"))
+  a <- small_run(categorical, "income", "classification")
+  b <- small_run(d, "income", "regression")
+  c <- small_run(d, NULL, "none")
+  print(lapply(list(classification=a, regression=b, no_response=c), function(z) head(z$data)))
+  # These tiny settings demonstrate API use; they do not establish statistical quality.
+})
+```
+
+Use `mode="classification"` explicitly for numeric class codes. With `mode="auto"`,
+a numeric response implies regression. With `target=NULL, mode="none"`, there is
+no response guide or response-utility objective. RF-based association selection,
+the BN and the XGB plausibility discriminator still serve their other roles.
+`pairs=NULL` selects pairs automatically; `pairs=list()` intentionally requests none.
+
+## What flight optimizes
+
+For a fixed chain archive A, let q be the fitted BN mass, p the XGB real-class
+score, and d the normalized nearest-record Hamming distance. The implemented
+energy has the form
+
+\[
+H_A(x)=-\log q(x)+\lambda_P(1-p(x))+
+\lambda_R\exp[-d(x,R)/\tau_R]+
+\lambda_D\exp[-d(x,A)/\tau_D].
+\]
+
+An empty archive contributes zero diversity energy. BN independence proposals
+cancel the BN term in the Hastings ratio. Both old and proposed states are
+compared against the same archive. The archive grows during collection and is
+local to a chain, so this is adaptive sampling, not a claim of draws from one
+fixed stationary distribution. Duplicate synthetic contents are retained.
+Exact categorical reference matches are excluded. These mechanisms are not
+formal anonymity or differential-privacy guarantees.
+
+The staged API separates preparation, model fitting, flight and landing.
+Use `spades_resume_flight()` for checkpointed flight recovery; consult its help
+for the checkpoint arguments. Reusing the fitted model avoids refitting it.
+Calling the main workflow again is not itself a model-reuse operation.
+
+## Landing objective and fidelity
+
+For k variables and B distinct selected pairs, the default component count is
+J = k + B + (k - 1). Fidelity is the arithmetic mean of these J components:
+
+\[
+F(T)=\frac{1}{J}\sum_{j=1}^J D_j(T,R),\qquad H(T)=F(T)+U(T).
+\]
+
+Each marginal or joint-pair component is total variation distance. Each
+conditional component averages within-stratum TVD with the reference stratum
+proportions. A reference stratum absent from the target receives discrepancy one.
+The highest-cardinality prepared variable conditions the distributions unless
+`conditional_on` specifies another column. This formulation is a mean across
+components, not a maximum and not a mean giving equal weight to component
+families. RF importance selects associations; it does not set their energy weights.
+There is no landing diversity penalty in this workflow.
+
+Classification utility is the absolute difference between the fixed RF guide's
+accuracy on the selected target and its accuracy on the training reference.
+For no response, U is zero. Selection swaps one pool index at a time, with unique
+selected indices but possibly duplicated record contents. The reported result is
+the final SA state. An optimum is not certified.
+
+## Continuous response: categorical fidelity, numerical utility
+
+The cleaned numerical response is partitioned using type-7 quantiles, requesting
+ten bins by default. Repeated boundaries are merged; ten nonempty bins are not
+guaranteed. The response protocol reports effective bins and counts.
+
+The pool remains categorical, including the response bin. A fixed RF regression
+guide is fitted on categorical predictors and the real numerical response.
+For each candidate swap, a fresh response value is drawn uniformly inside the
+candidate bin. Integer-valued input uses the admissible integers in that interval.
+The objective adds
+
+\[
+U(T)=\frac{|E(T)-E(R)|}{s_R},
+\]
+
+where E is RMSE or MAE and s_R is the real response standard deviation. Accepting
+a proposal retains both its pool index and response value. Rejecting it preserves
+both old values. Final accepted responses are never redrawn. Numerical predictors
+are reconstructed after landing, just as in classification.
+
+The proposal is interpreted relative to the product of within-bin uniform base
+measures and uniform index selection. The within-bin proposal ratio cancels the
+base-measure ratio. Unequal-width bins do not imply symmetry with respect to
+ordinary numerical Lebesgue measure.
+
+The low-level `spades_utility(mode="regression")` helper remains a fixed-numerical-
+pool interface for compatibility. It is not the dynamic regression branch of
+`spades_synthesise()`. Likewise, fixed-score regression in
+`spades_target_stability()` is distinct. Dynamic-response repetitions should use
+`spades_land_response()` with explicit seeds, preserving each accepted response.
+Interrupted dynamic SA is not currently resumed from an intermediate state.
+Uniform reconstruction is not an additional proven
+privacy guarantee.
+
+## Evaluation after generation
+
+See `vignette("evaluation", package="SPADES.IND")` for fidelity, privacy,
+membership inference, fixed-pool stability and external utility.
+The classification paper protocol is described in
+`vignette("paper-case-study", package="SPADES.IND")`.
+
+## Supported interfaces and research modules
+
+The supported workflow comprises preparation, automatic fidelity structure,
+model fitting, flight/resume, landing, reconstruction, fidelity/privacy audits,
+fixed-pool stability and external utility. Historical research-module accessors
+are retained for compatibility and helper dependencies. Their presence does not
+establish validation of every historical conformal, sensitivity or target-size
+experiment.

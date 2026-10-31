@@ -1,0 +1,30 @@
+local({
+ library(SPADES.IND)
+ prep<-get('.spades_prepare_target',asNamespace('SPADES.IND'))
+ withr::local_seed(42L)
+ d<-data.frame(x=seq_len(120)/7,g=rep(letters[1:4],30),y=seq_len(120)*2.3)
+ p<-prep(d,'y','regression',20L,10L,'NA',FALSE)
+ stopifnot(p$response_protocol$actual_bins==10L,all(p$response_protocol$counts==12L),
+   identical(p$numeric_discretizers$y$breaks,as.numeric(quantile(d$y,seq(0,1,.1),names=FALSE))))
+ tied<-d;tied$y<-rep(c(0,10,20),c(80,20,20))
+ pt<-prep(tied,'y','regression',20L,10L,'NA',FALSE)
+ stopifnot(pt$response_protocol$actual_bins<10L,all(diff(pt$numeric_discretizers$y$breaks)>0))
+ dc<-d;dc$y<-rep(1:3,40)
+ pc<-prep(dc,'y','classification',20L,10L,'NA',FALSE)
+ stopifnot(!'y'%in%pc$schema$numeric,setequal(as.character(pc$data$y),as.character(1:3)))
+ pn<-prep(d,NULL,'none',20L,10L,'NA',FALSE)
+ stopifnot(pn$response_protocol$utility=='none')
+ values<-spades_reconstruct(p$data,p,seed=80L)
+ stopifnot(identical(as.character(p$data$y),get('.spades_bin_labels',asNamespace('SPADES.IND'))(values$y,p$numeric_discretizers$y)))
+ if(requireNamespace('ranger',quietly=TRUE)) {
+   u<-spades_utility(p,p$data,'y',mode='regression',reference_values=p$original,pool_values=values,threads=1L)
+   prediction_data<-values[,c('x','g')];prediction_data$g<-factor(prediction_data$g,levels=unique(as.character(p$data$g)))
+   fixed_pred<-predict(u$model,data=prediction_data,num.threads=1L)$predictions
+   stopifnot(isTRUE(all.equal(unname(u$scores),unname((fixed_pred-values$y)^2))))
+   land<-spades_land(p$data,p,n=30,utility=u,control=list(L=50L,pilot=10L),verbose=FALSE)
+   released<-values[land$indices,,drop=FALSE]
+   expected<-abs(sqrt(mean(u$scores[land$indices]))-u$reference)/u$scale
+   stopifnot(abs(land$summary$utility[2]-expected)<1e-10,identical(released,values[land$indices,,drop=FALSE]))
+ }
+ cat('PASS: response deciles, tied boundaries, numeric-coded classes, no utility, fixed reconstruction and regression RMSE.\n')
+})

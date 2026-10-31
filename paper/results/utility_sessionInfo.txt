@@ -1,0 +1,21 @@
+R version 4.4.3 (2025-02-28 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=Italian_Italy.utf8  LC_CTYPE=Italian_Italy.utf8    LC_MONETARY=Italian_Italy.utf8
+[4] LC_NUMERIC=C                   LC_TIME=Italian_Italy.utf8    
+
+time zone: Europe/Rome
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.4.3    Matrix_1.7-2      tools_4.4.3       parallel_4.4.3    withr_3.0.2      
+ [6] Rcpp_1.0.12       xgboost_1.7.7.1   rpart_4.1.24      ranger_0.17.0     grid_4.4.3       
+[11] data.table_1.15.4 jsonlite_2.0.0    digest_0.6.35     rngtools_1.5.2    lattice_0.22-6   

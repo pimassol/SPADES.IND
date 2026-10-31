@@ -1,0 +1,17 @@
+dataset,variable,rows,distinct,empty,text_NA,literal_Missing
+training_data.csv,municipality_residence,9000,145,0,0,0
+training_data.csv,age,9000,48,0,0,0
+training_data.csv,civil_status,9000,5,0,0,0
+training_data.csv,gender,9000,2,0,0,0
+training_data.csv,occupation,9000,2,0,0,0
+training_data.csv,physical_activity,9000,6,0,0,1
+training_data.csv,genetic_predisposition,9000,9,0,0,1
+training_data.csv,diagnosis,9000,4,0,0,0
+test_real_1000.csv,municipality_residence,1000,135,0,0,0
+test_real_1000.csv,age,1000,48,0,0,0
+test_real_1000.csv,civil_status,1000,4,0,0,0
+test_real_1000.csv,gender,1000,2,0,0,0
+test_real_1000.csv,occupation,1000,2,0,0,0
+test_real_1000.csv,physical_activity,1000,5,0,0,0
+test_real_1000.csv,genetic_predisposition,1000,8,0,0,0
+test_real_1000.csv,diagnosis,1000,4,0,0,0

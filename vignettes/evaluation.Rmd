@@ -1,0 +1,124 @@
+---
+title: "SPADES.IND: fidelity, privacy and external utility"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{SPADES.IND: fidelity, privacy and external utility}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = "#>")
+```
+
+## Evaluation inputs
+
+Assess the final released data, not an obsolete reconstruction. Keep the cleaned
+training reference, categorical target, saved discretizers, selected pairs and
+conditioning variable with each release. The real nonmember holdout must not
+have been used in generation or guide fitting. The calls below are templates
+for existing objects; they are not executed while building this vignette.
+
+```{r fidelity-template}
+# result: a completed spades_synthesise() result
+fidelity <- SPADES.IND::spades_fidelity_audit(
+  reference = result$prepared$data,
+  categorical = result$categorical,
+  released = result$data,
+  reference_values = result$prepared$original,
+  discretizers = result$prepared$numeric_discretizers,
+  pairs = result$landing$pairs,
+  conditional_on = result$landing$conditional_on)
+```
+
+## Reconstruction and fidelity checks
+
+Always evaluate the final release as well as its categorical representation.
+Reapplying the saved discretizers must recover every selected bin. The package
+rejects bin crossings. Categorical fidelity is therefore invariant under valid
+reconstruction, but numerical distributions must still be assessed separately.
+Use `spades_fidelity_audit()` with the saved pairs, conditioning variable,
+discretizers, categorical target and final numerical release. It reports marginal,
+bivariate and conditional components, along with numerical distribution checks.
+Do not infer full joint-distribution fidelity from small selected-component errors.
+
+## Privacy and membership inference
+
+`spades_privacy_audit()` uses the actual final release, training members and real
+nonmembers. It reports duplicates and exact matches and evaluates distance,
+density, nearest-neighbour and RF attacks. Candidate profiles shared between
+member and nonmember groups are excluded; candidate classes are balanced.
+Attack training, calibration and test partitions are separate. Calibration sets
+select thresholds and attacks; held-out attack test sets measure performance.
+Controls include permuted membership labels and a hypothetical copied release.
+
+`spades_mia_stability()` repeats attack partitions on the same cached release and
+candidate features. Repeated splits overlap, so their variability is descriptive,
+not independent replication. Near-chance attack performance is limited empirical
+evidence for the tested attacks, not a privacy certificate. Candidate-source
+mismatch can confound the results. Audit outputs may contain record-level links;
+choose an explicit output directory outside the package source.
+
+## Stability and external predictive utility
+
+Fixed-pool target stability repeats landing and reconstruction with different
+target seeds while preserving the pool and guide. It does not measure flight
+variability. For external utility use `spades_external_utility()` with a named
+list of final synthetic targets, the cleaned real training data and the same
+untouched real holdout. Use one fixed model seed and the same hyperparameters
+across targets. Ten targets with XT, bootstrap CART and XGB entail thirty synthetic
+fits plus three real baselines; no model-seed grid is required.
+
+Classification reports accuracy and probabilistic metrics; regression reports
+RMSE, MAE and R-squared. Guide performance used by landing is not a substitute
+for this external assessment. Shared-holdout comparisons and repeated targets
+are dependent. Cache-compatible completed external fits can be reused.
+
+## Membership audit template
+
+Use matching columns and complete member/nonmember data. The audit requires at
+least 200 eligible distinct profiles per membership class after exclusions;
+the tiny workflow examples are intentionally too small for this analysis.
+
+```{r membership-template}
+privacy <- SPADES.IND::spades_privacy_audit(
+  members = result$prepared$original,
+  nonmembers = real_holdout,
+  released = result$data,
+  out_dir = file.path(audit_directory, "privacy"),
+  seeds = 20261100L + seq_len(20L), threads = 6L)
+```
+
+## External utility template
+
+A named list permits comparison of multiple final targets. Keep the model seed
+fixed across the list so that varying the target is the intended experimental
+factor. Use `mode="regression"` for a numerical response. This is distinct from
+optimizing the fixed guide during landing.
+
+```{r external-template}
+utility <- SPADES.IND::spades_external_utility(
+  reference = real_training,
+  synthetic = released_targets,
+  holdout = real_holdout,
+  target = response_name,
+  mode = "classification",
+  models = c("XT", "Bagging_CART", "XGB"),
+  seed = 20261026L, threads = 6L,
+  out_dir = file.path(audit_directory, "external_utility"))
+```
+
+## Reporting results
+
+Report the number of cleaned training rows and excluded rows, target and pool
+sizes, fidelity components rather than only their mean, numerical reconstruction
+checks, duplicates, exact matches and MIA attack performance with controls.
+For multiple targets report the range and variability across targets, and retain
+per-target results. Report probabilistic classification metrics as well as
+accuracy. Distinguish uncertainty across targets from uncertainty across model
+seeds; the fixed-seed protocol does not estimate the latter.
+
+Keep protocol settings, software versions, seeds and cached result provenance.
+Do not describe an incomplete or interrupted analysis as a completed evaluation.
+Near-chance membership attacks do not rule out untested attacks. Improved
+accuracy does not imply improved probabilistic predictions or full fidelity.
