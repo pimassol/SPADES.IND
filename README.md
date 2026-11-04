@@ -2,6 +2,15 @@
 
 Energy-driven generation of privacy-aware synthetic microdata. Version 0.1.8.
 
+## Related paper
+
+Massoli, P., and Spagnuolo, F.
+**An Energy-Driven Framework for Privacy-Aware Synthetic Data Generation.**
+
+Preprint: https://arxiv.org/abs/2606.16488
+
+The package implements the case study presented in the paper.
+
 ## Three response scenarios
 
 - `target="diagnosis", mode="classification"`: categorical fidelity and an
